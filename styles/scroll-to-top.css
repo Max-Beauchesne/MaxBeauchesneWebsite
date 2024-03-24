@@ -1,0 +1,36 @@
+.bottomMenu {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 8rem;
+    height: 2rem;
+    background: var(--floral-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: all 1s;
+    margin: 1rem;
+   
+    border: 2px solid #1E1E1E;
+    color: #1E1E1E;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 140%;
+    padding: 6px 0px 8px 0px;
+}
+
+.bottomMenu:hover {
+  border: 2px solid #1E1E1E;
+  background: #1E1E1E;
+  color: #fff;
+  transition: all 350ms;
+}
+
+.hide {
+    opacity: 0;
+    right: -100%;
+}
+.show {
+    opacity: 1;
+    right: 0;
+}
