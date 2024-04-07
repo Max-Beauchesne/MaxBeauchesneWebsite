@@ -572,17 +572,18 @@ padding: 5px;
 .behanceiconfront:hover {
   visibility: visible;
   opacity: 0%;
+  transition-duration: 350ms;
 }
 
 .instagramiconfront {
   position: relative;	
   position: absolute;
-  
 }
 
 .instagramiconfront:hover {
   visibility: visible;
   opacity: 0%;
+  transition-duration: 350ms;
 }
 
 .linkediniconfront {
@@ -593,6 +594,7 @@ padding: 5px;
 .linkediniconfront:hover {
   visibility: visible;
   opacity: 0%;
+  transition-duration: 350ms;
 }
 
 
