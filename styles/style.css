@@ -667,7 +667,7 @@ padding: 20px 50px 0px 50px;
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
+  min-height: 0vh;
   /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
   align-items: center;
@@ -692,7 +692,6 @@ padding: 20px 50px 0px 50px;
 .project-details {
   width: 100%;
   padding: 1rem;
-  width: 100%;  
 }
 
 /* 
