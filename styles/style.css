@@ -672,6 +672,9 @@ padding: 20px 50px 0px 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
+  
+
 }
 
 .text-section {
@@ -689,13 +692,7 @@ padding: 20px 50px 0px 50px;
 .project-details {
   width: 100%;
   padding: 1rem;
-  /* Delete the following if you do not want a gradient background on the project page */
-  background-image: linear-gradient(
-    -225deg,
-    var(--linear-gradient-color-1) 0%,
-    var(--linear-gradient-color-2) 50%,
-    var(--linear-gradient-color-3) 100%
-  );
+  width: 100%;  
 }
 
 /* 
@@ -1058,16 +1055,20 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
+    
     min-height: 50vh;
     /* This should be deleted if you want to remove space between project images on project pages */
   }
+  
 
   .project-image-container {
+    
     flex-direction: row;
   }
 
   .project-navigation {
     justify-content: flex-start;
+    
   }
 
   .arrow {
