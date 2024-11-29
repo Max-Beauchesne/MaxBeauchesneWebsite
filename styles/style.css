@@ -468,6 +468,18 @@ padding: 5px;
   opacity: 0.8;
 }
 
+.workfront {
+  position: relative;	
+  position: absolute;
+  transition: all 350ms;
+}
+
+.workfront:hover {
+  visibility: visible;
+  opacity: 0%;
+  transition: all 350ms;
+}
+
 /* 
 
  █████  ██████   ██████  ██    ██ ████████ 
@@ -567,34 +579,37 @@ padding: 5px;
 .behanceiconfront {
   position: relative;	
   position: absolute;
+  transition: all 350ms;
 }
 
 .behanceiconfront:hover {
   visibility: visible;
   opacity: 0%;
-  transition-duration: 350ms;
+  transition: all 350ms;
 }
 
 .instagramiconfront {
   position: relative;	
   position: absolute;
+  transition: all 350ms;
 }
 
 .instagramiconfront:hover {
   visibility: visible;
   opacity: 0%;
-  transition-duration: 350ms;
+  transition: all 350ms;
 }
 
 .linkediniconfront {
   position: relative;	
   position: absolute;
+  transition: all 350ms;
 }
 
 .linkediniconfront:hover {
   visibility: visible;
   opacity: 0%;
-  transition-duration: 350ms;
+  transition: all 350ms;
 }
 
 
